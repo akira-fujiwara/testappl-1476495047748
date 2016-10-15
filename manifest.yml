@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: fujiwarajpibmcom-myspace01.apic.mybluemix.net
+  name: testappl
+  host: testappl
+  disk_quota: 1024M
