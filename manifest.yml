@@ -1,8 +1,9 @@
 applications:
-- path: .
-  memory: 256M
-  instances: 1
-  domain: fujiwarajpibmcom-myspace01.apic.mybluemix.net
-  name: testappl
+- disk_quota: 1024M
   host: testappl
-  disk_quota: 1024M
+  name: testappl
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
+  buildpack: nodejs_buildpack
